@@ -16,7 +16,6 @@ public class Lab2P1_GabrielAlexis {
         char resp;
         resp = 's';
         
-            while (opcion >= 1 && opcion < 4) {
                 while (resp == 's' || resp == 'S') {
                 {
                     if (opcion == 1) {
@@ -140,11 +139,11 @@ public class Lab2P1_GabrielAlexis {
                         if(opcion >= 1 && opcion < 4){
                             break;
                         }
-                        break;
+                       
                     }
                    
                 }
-            }
+            
         }
         System.out.println("Fin del programa");
     }//fin del main
